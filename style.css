@@ -534,11 +534,11 @@ table {
 }
 
 footer {
-  background: #ccc;
-  height: 30px;
+  background: #333333;
+  height: 26px;
   /*Указываем свои размеры*/
   width: 100%;
-  margin-top: -30px;
+  margin-top: -26px;
   /*Указываем свои размеры*/
   position: relative;
   min-width: 1200px;
@@ -882,4 +882,28 @@ a.post-tags__item:hover {
 .aside-tags__tags a:hover {
   background-color: #ababab;
   color: #ffffff;
+}
+
+.footer-page {
+  padding: 0.625rem 0;
+}
+
+.footer-copyright {
+  float: left;
+}
+
+.footer-copyright__copyright {
+  font-size: 0.75rem;
+  color: #959595;
+  text-transform: uppercase;
+}
+
+.footer-logo a {
+  font-size: 0.75rem;
+  color: #959595;
+  text-transform: uppercase;
+}
+
+.footer-social {
+  float: right;
 }
