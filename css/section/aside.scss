@@ -1,0 +1,117 @@
+.aside {
+	float: right;
+	width: 16.875rem;
+}
+.aside-categoria {
+	margin-top: 3rem;
+}
+.aside-categoria__title {
+	font-family: 'RobotoCondensed-Bold';
+	font-size: 1.25rem;
+	line-height: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.nav-categoria__item {
+	background: url(image/icon/list-style-categoria.png) no-repeat 0;
+	font-weight: bold;
+	border-bottom: 1px solid #ededed;
+	padding: 1rem 0 1rem 1rem;
+}
+.nav-categoria__item:last-child {
+	border-bottom: 0;
+}
+.nav-categoria__item a {
+	color: #000000;
+}
+.nav-categoria__item a:hover {
+	text-decoration: underline;
+}
+.aside-tabs {
+	margin-top: 1.875rem;
+}
+.nav-tabs {
+	border-bottom: 5px solid #9d3bc6;
+}
+.nav-tabs__item {
+	float: left;
+	font-size: 1rem;
+	font-weight: bold;
+	margin-right: 0.75rem;
+	word-wrap: break-word;
+}
+.nav-tabs__item:last-child {
+	margin-right: 0;
+}
+.nav-tabs__item {
+	display: block;
+	background-color: #eeeeee;
+	color: #000000;
+	padding: 0.75rem;
+	border-radius: 10px 10px 0 0;
+}
+.nav-tabs__item--active, .nav-tabs__item:hover {
+	background-color: #9d3bc6;
+	color: #ffffff;
+}
+.tabs-block-popular, .tabs-block-comment {
+	background-color: #eeeeee;
+	border-radius: 0 0 10px 10px;
+	padding: 1.25rem;
+}
+.tabs-block-popular, .tabs-block-comment {
+	display: none;
+}
+.block-popular-post {
+	margin-top: 1.25rem;
+}
+.block-popular-post__img {
+	float: left;
+	background-color: #ababab;
+	width: 3rem;
+	height: 3rem;
+	border: 3px solid #ffffff;
+	overflow: hidden;
+}
+.block-popular-post__img img {
+	height: 100%;
+    width: auto;
+}
+.block-popular-post__name {
+	float: right;
+	width: 10rem;
+}
+.block-popular-post__date {
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: #9d3bc6;
+}
+.block-popular-post__title a {
+	font-size: 0.75rem;
+	color: #000000;
+}
+.tabs-block-comment a {
+	font-size: 0.75rem;
+	color: #000000;
+}
+.tabs-block--active {
+	display: block;
+}
+.aside-tags__title {
+	font-family: 'RobotoCondensed-Bold';
+	font-size: 1.25rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.aside-tags__tags a {
+	display: inline-block;
+	background-color: #f8f8f8;
+	padding: 0.75rem;
+	font-size: 0.75rem;
+	color: #000000;
+	margin: 0 0.375rem 0.375rem 0;
+}
+.aside-tags__tags a:hover {
+	background-color: #ababab;
+	color: #ffffff;
+}

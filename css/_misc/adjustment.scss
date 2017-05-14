@@ -33,7 +33,7 @@ img {
 .wrapper:after {
 	content: "";
 	display: block;
-	height: 30px;
+	height: 70px;
 	overflow: hidden;
 }/*Прибивать футер через псевдоэлемент*/
 
@@ -75,5 +75,5 @@ footer {
 	width: 100%; 
 	margin-top: -30px; /*Указываем свои размеры*/
 	position: relative;
-	min-width: 960px; /*Указываем свои размеры*/
+	min-width: 1200px; /*Указываем свои размеры*/
 }

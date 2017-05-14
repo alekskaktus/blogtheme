@@ -42,7 +42,7 @@
 			</header>
 		</div>
 		<div class="hr-header"></div>
-		<div class="container">
+		<div class="container clearfix">
 			<div class="blog-posts">
 				<article class="my-post">
 					<h2 class="my-post__title"><a href="#">HTML-шаблон "Обучение лепки фигурок"</a></h2>
@@ -108,8 +108,8 @@
 						<a href="#">Подробнее</a>
 					</div>
 				</article>
-				<div class="paginator">
-					<ul class="paginator__list">
+				<div class="paginator clearfix">
+					<ul class="paginator__list clearfix">
 						<li class="paginator__item prev-next">
 							<a href="#"><img src="image/icon/left-thin.png" alt="стрелка влево"></a>
 						</li>
@@ -163,84 +163,54 @@
 						</ul>
 					</nav>
 				</div>
+				<!--Добавим по мере необходимости-->
+				<!--
 				<div class="aside-tabs">
 					<nav class="nav-tabs">
-						<ul class="nav-tabs__list">
-							<li class="nav-tabs__item">
-								<a href="#">Популярные</a>
-							</li>
-							<li class="nav-tabs__item">
-								<a href="#">Последние</a>
-							</li>
-							<li class="nav-tabs__item">
-								<a href="#">Комментарии</a>
-							</li>
+						<ul class="nav-tabs__list clearfix">
+							<li class="nav-tabs__item nav-tabs__item--active">Популярные</li>
+							<li class="nav-tabs__item">Комментарии</li>
 						</ul>
 					</nav>
 					<div class="tabs-block-popular">
-						<div class="block-popular-post">
-							<div class="block-popular-post__img">
-								<a href="#"><img src="#" alt="Картинка поста"></a>
-							</div>
-							<div class="block-popular-post__name">
-								<div class="block-popular-post__date">
-									<time datetime="20170501">01 мая 2015</time>
+						<div class="tabs-block-popularposts clearfix">
+							<div class="block-popular-post clearfix">
+								<div class="block-popular-post__img">
+									<a href="#"><img src="image/post-foto1.jpg" alt="Картинка поста"></a>
 								</div>
-								<div class="block-popular-post__title">
-									<a href="#">HTML-шаблон "Стоматологическая клиника"</a>
-								</div>
-							</div>
-						</div>
-						<div class="block-popular-post">
-							<div class="block-popular-post__img">
-								<a href="#"><img src="#" alt="Картинка поста"></a>
-							</div>
-							<div class="block-popular-post__name">
-								<div class="block-popular-post__date">
-									<time datetime="20170501">01 мая 2015</time>
-								</div>
-								<div class="block-popular-post__title">
-									<a href="#">HTML-шаблон "Стоматологическая клиника"</a>
+								<div class="block-popular-post__name">
+									<div class="block-popular-post__date">
+										<time datetime="20170501">01 мая 2015</time>
+									</div>
+									<div class="block-popular-post__title">
+										<a href="#">HTML-шаблон "Стоматологическая клиника"</a>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="tabs-block-recent">
-						<div class="block-recent-post">
-							<div class="block-recent-post__img">
-								<a href="#"><img src="#" alt="Картинка поста"></a>
-							</div>
-							<div class="block-recent-post__name">
-								<div class="block-recent-post__date">
-									<time datetime="20170501">01 мая 2015</time>
+							<div class="block-popular-post clearfix">
+								<div class="block-popular-post__img">
+									<a href="#"><img src="image/post-foto2.jpg" alt="Картинка поста"></a>
 								</div>
-								<div class="block-recent-post__title">
-									<a href="#">HTML-шаблон "Стоматологическая клиника"</a>
-								</div>
-							</div>
-						</div>
-						<div class="block-recent-post">
-							<div class="block-recent-post__img">
-								<a href="#"><img src="#" alt="Картинка поста"></a>
-							</div>
-							<div class="block-recent-post__name">
-								<div class="block-recent-post__date">
-									<time datetime="20170501">01 мая 2015</time>
-								</div>
-								<div class="block-recent-post__title">
-									<a href="#">HTML-шаблон "Стоматологическая клиника"</a>
+								<div class="block-popular-post__name">
+									<div class="block-popular-post__date">
+										<time datetime="20170501">01 мая 2015</time>
+									</div>
+									<div class="block-popular-post__title">
+										<a href="#">HTML-шаблон "Стоматологическая клиника"</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="tabs-block-comment">
+					<div class="tabs-block-comment tabs-block--active">
 						<p><a href="#">Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Повседневная практика показывает, что укрепление и развитие структуры представляет собой интересный эксперимент проверки систем массового участия.</a></p>
 						<p><a href="#">Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Повседневная практика показывает, что укрепление и развитие структуры представляет собой интересный эксперимент проверки систем массового участия.</a></p>
 					</div>
-				</div>
+				</div>-->
+				<!--Добавим по мере необходимости-->
 				<div class="aside-tags">
 					<h2 class="aside-tags__title">Популярные тэги</h2>
-					<div class="aside-tags__tafs">
+					<div class="aside-tags__tags">
 						<a href="#">HTML-шаблоны</a>
 						<a href="#">Bootstrap</a>
 						<a href="#">Шаблоны WP</a>
@@ -254,16 +224,14 @@
 		</div>
 	</div>
 	<footer class="footer-page">
-		<div class="wrapper">
-			<div class="container">
-				<div class="footer-copyright">
-					<span class="footer-copyright__copyright">&copy; 2017</span>
-					<span class="footer-logo"><a href="@">AleksKaktus</a></span>
-				</div>
-				<div class="footer-social">
-					<a href="#"></a>
-					<a href="#"></a>
-				</div>
+		<div class="container">
+			<div class="footer-copyright">
+				<span class="footer-copyright__copyright">&copy; 2017</span>
+				<span class="footer-logo"><a href="@">AleksKaktus</a></span>
+			</div>
+			<div class="footer-social">
+				<a href="#"></a>
+				<a href="#"></a>
 			</div>
 		</div>
 	</footer>
