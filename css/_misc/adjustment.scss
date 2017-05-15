@@ -33,7 +33,7 @@ img {
 .wrapper:after {
 	content: "";
 	display: block;
-	height: 70px;
+	height: 30px;
 	overflow: hidden;
 }/*Прибивать футер через псевдоэлемент*/
 
@@ -71,9 +71,9 @@ table {
 
 footer {
 	background: #333333;
-	height: 26px; /*Указываем свои размеры*/
+	height: 30px; /*Указываем свои размеры*/
 	width: 100%; 
-	margin-top: -26px; /*Указываем свои размеры*/
+	margin-top: -30px; /*Указываем свои размеры*/
 	position: relative;
 	min-width: 1200px; /*Указываем свои размеры*/
 }

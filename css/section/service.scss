@@ -1,0 +1,22 @@
+.my-service, .my-service-text {
+	margin-top: 2rem;
+}
+.my-service__title, .my-service-text__title {
+	font-family: 'RobotoCondensed-Bold';
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.my-service__img {
+	background-color: #b6b6b6;
+	width: 73.125rem;
+	height: 16rem;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.my-service-text__list {
+	margin-top: 2rem;
+}
+.my-service-text__item {
+	list-style: disc inside;
+}

@@ -494,7 +494,7 @@ img {
 .wrapper:after {
   content: "";
   display: block;
-  height: 70px;
+  height: 30px;
   overflow: hidden;
 }
 
@@ -535,10 +535,10 @@ table {
 
 footer {
   background: #333333;
-  height: 26px;
+  height: 30px;
   /*Указываем свои размеры*/
   width: 100%;
-  margin-top: -26px;
+  margin-top: -30px;
   /*Указываем свои размеры*/
   position: relative;
   min-width: 1200px;
@@ -710,6 +710,7 @@ a.post-tags__item:hover {
 
 .paginator {
   margin-top: 1rem;
+  margin-bottom: 3rem;
 }
 
 .paginator__item {
@@ -906,4 +907,50 @@ a.post-tags__item:hover {
 
 .footer-social {
   float: right;
+}
+
+.about-us, .about-us-text {
+  margin-top: 2rem;
+}
+
+.about-us__title, .about-us-text__title {
+  font-family: 'RobotoCondensed-Bold';
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.about-us__img {
+  background-color: #b6b6b6;
+  width: 73.125rem;
+  height: 16rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.my-service, .my-service-text {
+  margin-top: 2rem;
+}
+
+.my-service__title, .my-service-text__title {
+  font-family: 'RobotoCondensed-Bold';
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.my-service__img {
+  background-color: #b6b6b6;
+  width: 73.125rem;
+  height: 16rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.my-service-text__list {
+  margin-top: 2rem;
+}
+
+.my-service-text__item {
+  list-style: disc inside;
 }
